@@ -8,6 +8,7 @@
 	.top {
 		width: 80%;
 		margin: 2em auto;
+		font-size: 30px; 
 	}
 	.container {
 		margin: auto;
@@ -19,9 +20,25 @@
 	}
 	.moment-embed {
 		width: 400px;
-		height: 600px;
+		height: auto;
 		margin: auto;
 		overflow: scroll;
+	}
+
+	@media screen and (max-width: 1170px) {
+		.top {
+			width: 90%;
+			margin: 2em auto;
+		}
+		.moment-embed {
+			width: 100%;
+			height: auto;
+			overflow: scroll;
+		}
+		.container {
+			margin: auto;
+			width: 100%%;
+		}
 	}
 </style>
 
